@@ -75,7 +75,7 @@ int32_t main()
             if(s.size()>2){break;}
             else if(s[0]=='M')
             {
-                cin>>x>>y;
+                cin>>x>>y; 
                 cout<<bit.sum(x,y)<<endl;
             }
             else
